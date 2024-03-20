@@ -85,7 +85,7 @@ footer{
     background-image: url('../images/fondo.jpg');
     padding-top: 20px;
     background-position: center;
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-repeat: no-repeat;
     margin: 0;
 padding: 0;
     background-color: black; 
@@ -134,14 +134,40 @@ form {
   }
 
   .content-menu{
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
+    width: 100%;
     margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
   }
 
   .card-text {
     font-size: 15px;
   }
+
+  .content-menu{
+    align-self: center;
+    justify-content: center;
+    color: #d5cfbf;
+  }
+
+  .content-submenu h1{
+    margin: 40px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
