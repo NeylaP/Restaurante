@@ -156,6 +156,8 @@ form {
 
   .row {
     justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .image-container {
